@@ -5,6 +5,33 @@ body{
 
 header {
     display: flex;
-
-   justify-content: space-between; 
+    justify-content: space-between; 
+    align-items: center;
+    padding: 15px;
+    background: #eee;
 }
+
+ul {
+    display: flex;
+    list-style: none;
+    padding: 0;
+ }
+
+ li{
+    margin-left: 20px;
+ }
+
+ a{ 
+    text-decoration: none;
+    color:black
+ }
+
+ .hero{
+    text-align: center;
+    padding: 60px 20px;
+    background: #e2e2e2;
+ }
+
+ .hero h1{
+    font-size: 35px;
+ }
