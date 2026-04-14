@@ -7,21 +7,21 @@ header {
     display: flex;
     justify-content: space-between; 
     align-items: center;
-    padding: 15px;
-    background: #eee;
+    padding: 15px 30px;
+    background: white;
+    border-bottom: 1px solid #ddd;
 }
 
-ul {
+header ul {
     display: flex;
     list-style: none;
+    gap: 20px;
+    margin: 0;
     padding: 0;
  }
 
- li{
-    margin-left: 20px;
- }
-
- a{ 
+ 
+ header a{ 
     text-decoration: none;
     color:black
  }
@@ -29,9 +29,12 @@ ul {
  .hero{
     text-align: center;
     padding: 60px 20px;
-    background: #e2e2e2;
+    background:linear-gradient white;
  }
 
- .hero h1{
-    font-size: 35px;
+ .hero h2{
+    font-size: 32px;
+    margin-top: 10px;
+    color: #444;
  }
+ 
